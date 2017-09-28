@@ -8,13 +8,35 @@
     <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-    <div class="layout-container">
-        <div class="p1-score">3</div>
-        <div class="p1-name">JR</div>
-        <div class="center-box">Winner's Finals</div>
-        <div class="p2-name">Rado</div>
-        <div class="p2-score">0</div>
-    </div> <!--End layout container -->
+    <div class="stream-container">
+        <div class="layout-container">
+            <div class="p1-score">0</div>
+            <div class="p1-name">JR</div>
+            <div class="center-box">Winner's Finals</div>
+            <div class="p2-name">Rado</div>
+            <div class="p2-score">0</div>
+        </div> <!--End layout container -->
+    </div> <!-- End stream container -->
+    <div class="space"></div>
+    <div class="controls-container">
+        <div class="player1-cont">
+            <p>Player 1</p>
+            <label>Name:</label><input id="p1-input" type="text"><input id="p1-submit" type="submit">
+            <button id="p1inc" class="p1-button">Increase Score</button>
+            <button id="p1dec" class="p1-button">Decrease Score</button>
+            <button id="p1reset" class="p1-button">Reset Score</button>
+        </div>
+        <div class="player2-cont">
+            <p>Player 2</p>
+            <label>Name:</label><input id="p2-input" type="text"><input id="p2-submit" type="submit">
+            <button id="p2inc" class="p2-button">Increase Score</button>
+            <button id="p2dec" class="p2-button">Decrease Score</button>
+            <button id="p2reset" class="p2-button">Reset Score</button>
+        </div>
+        <div class="row-3-cont">
+            <label>Middle Text:</label><input id="middle-input" type="text"><input id="middle-submit" type="submit">
+        </div>
+    </div>
     <script src="js/script.js"></script>
 </body>
 </html>

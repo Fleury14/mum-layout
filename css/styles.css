@@ -1,13 +1,19 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed');
+@import url('https://fonts.googleapis.com/css?family=Press+Start+2P');
 
 body {
-    font-family: 'Roboto Condensed', sans-serif;
+    font-family: 'Press Start 2P', cursive;
+}
+
+.stream-container {
+    width: 1280px;
+    height: 720px;
+    margin: 0;
 }
 
 .layout-container {
     display: flex;
     justify-content: center;
-    height: 50px;
+    height: 40px;
 }
 
 .p1-score, .p1-name, .p2-score, .p2-name, .center-box {
@@ -21,28 +27,55 @@ body {
 }
 
 .p1-score {
-    background-color: #d00;
+    background-color: #222;
+    /* border: 2px solid #f00; */
+    border-radius: 3%;
     width: 5%;
+    text-shadow: 3px 3px 3px #f00;
+    font-size: 1.75em;
 }
 
 .p1-name {
-    background-color: #f00;
+    background: linear-gradient(to right, #f00 , #800); /* Standard syntax */
     width: 30%;
+    font-size: 1.25em;
+    /* border: 2px solid #f00; */
 }
 
 .center-box {
     background-color: #333;
     color: #fff;
     width: 10%;
-    font-size: 1em;
+    font-size: 0.75em;
 }
 
 .p2-name {
-    background-color: #00f;
+    background: linear-gradient(to right, #004 , #00f); /* Standard syntax */
     width: 30%;
+    font-size: 1.25em;
 }
 
 .p2-score {
-    background-color: #00d;
+    background-color: #222;
+    text-shadow: 3px 3px 3px #00f;
     width: 5%;
+    font-size: 1.75em;
+}
+
+.p1-button {
+    background-color: #f00;
+    color: #fff;
+    padding: 5px;
+    border-radius: 5%;
+}
+
+.p2-button {
+    background-color: #00f;
+    color: #fff;
+    padding: 5px;
+    border-radius: 5%;
+}
+
+.row-3-cont {
+    margin-top: 25px;
 }
