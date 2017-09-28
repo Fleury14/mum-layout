@@ -16,7 +16,7 @@ function p1Increase() {
 
 function p2Increase() {
     p2Score++;
-    document.querySelector('.p2-score').innerHTML = p1Score;
+    document.querySelector('.p2-score').innerHTML = p2Score;
 }
 
 function p1Decrease() {
@@ -26,7 +26,7 @@ function p1Decrease() {
 
 function p2Decrease() {
     p2Score--;
-    document.querySelector('.p2-score').innerHTML = p1Score;
+    document.querySelector('.p2-score').innerHTML = p2Score;
 }
 
 function p1Reset() {
@@ -36,7 +36,7 @@ function p1Reset() {
 
 function p2Reset() {
     p2Score=0;
-    document.querySelector('.p2-score').innerHTML = p1Score;
+    document.querySelector('.p2-score').innerHTML = p2Score;
 }
 
 function p1NameChange() {
